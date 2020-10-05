@@ -1,0 +1,7 @@
+
+]	php:S1192*"HDefine a constant instead of duplicating this literal "backend" 3 times.(Ê„şš
+3php:S125"Remove this commented out code.(Ëô×ª
+[	php:S11929"FDefine a constant instead of duplicating this literal "width" 3 times.(Èã¥º
+]	php:S1192*"HDefine a constant instead of duplicating this literal "default" 4 times.(Ê„şš
+]	php:S11927"HDefine a constant instead of duplicating this literal "quality" 4 times.(ïóÇ•
+\	php:S11929"GDefine a constant instead of duplicating this literal "height" 3 times.(Èã¥º

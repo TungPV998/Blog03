@@ -20,6 +20,7 @@
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">Tên danh mục</th>
+                <th scope="col">Thuộc danh mục</th>
                 <th scope="col">Hành động</th>
             </tr>
             </thead>
@@ -28,9 +29,10 @@
             <tr>
                 <th scope="row">{{ $menu['id'] }}</th>
                 <td>{{ $menu['c_name'] }}</td>
+                <td>{{ $menu['parent_id'] == 0 ? "Danh Mục Cha" : "Danh Mục Con" }}</td>
                 <td>
                     <a href="{{ route("category.edit",["id"=>$menu['id']]) }}" class="btn btn-info">Sửa</a>
-                    <a href="{{ route("category.delete",["id"=>$menu['id']]) }}" onclick="alert('Bạn có chắc là muốn xóa ?')" class="btn btn-danger">Xóa</a>
+                    <a href="{{ route("category.delete",["id"=>$menu['id']]) }}" onclick="confirm('Bạn có chắc là muốn xóa ?')" class="btn btn-danger">Xóa</a>
                 </td>
 
             </tr>

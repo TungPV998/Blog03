@@ -9,11 +9,16 @@
     </div>
     <!-- /top tiles -->
     <div class="row">
-        <form method="post" action="{{ route("category.update") }}">
+        <form method="post" action="{{ route("category.update",["id"=>$category->id]) }}">
             @csrf
             <div class="form-group">
                 <label for="txt_name_cate">Tên danh mục:</label>
                 <input type="text" value="{{ $category->c_name }}" class="form-control" name="c_name" id="txt_name_cate">
+                @if ($errors->has('c_name'))
+                    <p class="error">
+                        <i style="color: red;font-style: italic">(*){{ $errors->first('c_name') }}</i>
+                    </p>
+                @endif
             </div>
             <div class="form-group">
                 <label>Chọn danh mục cha:</label>

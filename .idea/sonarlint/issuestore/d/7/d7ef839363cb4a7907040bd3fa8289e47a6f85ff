@@ -1,0 +1,57 @@
+
+`	php:S11925"FDefine a constant instead of duplicating this literal "PATCH" 4 times.(‹ô‹®ûÿÿÿÿ
+e	php:S1117½"ORename "$requestUri" which has the same name as the field declared at line 159.(åÜ€
+w	php:S1448'"cClass "Request" has 83 methods, which is greater than 20 authorized. Split it into smaller classes.(ıà%
+a	php:S11926"GDefine a constant instead of duplicating this literal "DELETE" 5 times.(¸ş±‚øÿÿÿÿ
+k	php:S1192Î"PDefine a constant instead of duplicating this literal "SERVER_PROTOCOL" 3 times.(ç±€ïúÿÿÿÿ
+e	php:S1142í"OReduce the number of returns of this function 4, down to the maximum allowed 3.(æÊõó
+g	php:S1192Ä"LDefine a constant instead of duplicating this literal "SERVER_NAME" 3 times.(üïù¡ùÿÿÿÿ
+c	php:S1192§"MDefine a constant instead of duplicating this literal "CONTENT_TYPE" 5 times.(ØÓ³ä
+i	php:S1117İ"NRename "$languages" which has the same name as the field declared at line 134.(ÜÅ¬òıÿÿÿÿ
+g	php:S1192—"LDefine a constant instead of duplicating this literal "REQUEST_URI" 4 times.(ê²«‰ûÿÿÿÿ
+_	php:S1192ó"IDefine a constant instead of duplicating this literal "PHP_SELF" 3 times.(ö£º
+o	php:S3776·"TRefactor this function to reduce its Cognitive Complexity from 34 to the 15 allowed.(È‘†Éşÿÿÿÿ
+b	php:S11928"HDefine a constant instead of duplicating this literal "OPTIONS" 4 times.(úàÜÉıÿÿÿÿ
+l	php:S1192¿"QDefine a constant instead of duplicating this literal "ORIG_SCRIPT_NAME" 3 times.(¡ÇëÏúÿÿÿÿ
+j	php:S1117Î"ORename "$requestUri" which has the same name as the field declared at line 159.(ñ™Ú¾ûÿÿÿÿ
+o	php:S3776ê"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(ğ¼ù±øÿÿÿÿ
+g	php:S1117Ô"LRename "$session" which has the same name as the field declared at line 184.(»ùÜ±üÿÿÿÿ
+e	php:S1142€	"OReduce the number of returns of this function 5, down to the maximum allowed 3.(Òíÿş
+c	php:S1117Ş"MRename "$pathInfo" which has the same name as the field declared at line 154.(§„³
+b	php:S1117´"LRename "$baseUrl" which has the same name as the field declared at line 164.(½‹ûÅ
+g	php:S1117„"LRename "$cookies" which has the same name as the field declared at line 117.(ø“Ïâşÿÿÿÿ
+x	php:S1192§"bDefine a constant instead of duplicating this literal "application/x-www-form-urlencoded" 3 times.(ØÓ³ä
+j	php:S1142Ì	"OReduce the number of returns of this function 5, down to the maximum allowed 3.(ÎÄàëúÿÿÿÿ
+^	php:S1192Ö"HDefine a constant instead of duplicating this literal "_format" 5 times.(óÛØ³
+e	php:S1142à"OReduce the number of returns of this function 5, down to the maximum allowed 3.(É¿¾Õ
+e	php:S1117‰"ORename "$requestUri" which has the same name as the field declared at line 159.(Æ©Ñ
+f	php:S1117Ø	"KRename "$method" which has the same name as the field declared at line 174.( ¾øÕùÿÿÿÿ
+g	php:S1192Ì"LDefine a constant instead of duplicating this literal "SCRIPT_NAME" 4 times.(­†ûÿÿÿÿ
+b	php:S1117Ú"LRename "$baseUrl" which has the same name as the field declared at line 164.(­ûàæ
+f	php:S1192Í"PDefine a constant instead of duplicating this literal "SCRIPT_FILENAME" 4 times.(­¦
+j	php:S3776×"TRefactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.(Ş›Äš
+j	php:S3776»"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(¯»½®
+j	php:S1192Ù"ODefine a constant instead of duplicating this literal "ORIG_PATH_INFO" 3 times.(ÛŸ Éûÿÿÿÿ
+b	php:S1117³"MRename "$basePath" which has the same name as the field declared at line 169.(»î”
+j	php:S3776€	"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(Òíÿş
+`	php:S11929"FDefine a constant instead of duplicating this literal "TRACE" 4 times.(êíˆïşÿÿÿÿ
+e	php:S1192¨"ODefine a constant instead of duplicating this literal "REQUEST_METHOD" 5 times.(Š±™¡
+\	php:S1192İ"FDefine a constant instead of duplicating this literal "HTTPS" 3 times.(ÆÙ„
+j	php:S1142Ì"OReduce the number of returns of this function 4, down to the maximum allowed 3.(ªÏ¤®øÿÿÿÿ
+g	php:S1192Å"LDefine a constant instead of duplicating this literal "SERVER_PORT" 5 times.(Ô¸õ•şÿÿÿÿ
+c	php:S1117»"MRename "$basePath" which has the same name as the field declared at line 169.(†Ïƒ
+j	php:S3776Á"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(¨‘öÈ
+>php:S108„")Either remove or fill this block of code.(Öñëû
+g	php:S1117ú"LRename "$content" which has the same name as the field declared at line 129.(è³í‡ÿÿÿÿÿ
+j	php:S3776í"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(æÊõó
+a	php:S1192‰"FDefine a constant instead of duplicating this literal "query" 5 times.(”‘—èùÿÿÿÿ
+9php:S125¤"Remove this commented out code.(ŒòÏñÿÿÿÿÿ
+j	php:S1142¼"OReduce the number of returns of this function 4, down to the maximum allowed 3.(êÓ»”ıÿÿÿÿ
+e	php:S1192Æ"JDefine a constant instead of duplicating this literal "HTTP_HOST" 3 times.(ÎÌ¦’úÿÿÿÿ
+b	php:S1192Ë"LDefine a constant instead of duplicating this literal "REMOTE_ADDR" 6 times.(ÎüÙ
+c	php:S1192¿"NDefine a constant instead of duplicating this literal "UNENCODED_URL" 3 times.(Öµz
+g	php:S1117ò"LRename "$baseUrl" which has the same name as the field declared at line 164.(ÓÏ¨†şÿÿÿÿ
+`	php:S11927"FDefine a constant instead of duplicating this literal "PURGE" 3 times.(şË¼ñüÿÿÿÿ
+c	php:S1192˜"MDefine a constant instead of duplicating this literal "QUERY_STRING" 5 times.(—ˆòÈ
+f	php:S1117­"KRename "$request" which has the same name as the field declared at line 89.(æ³Ëúÿÿÿÿ
+\	php:S1192Ü"FDefine a constant instead of duplicating this literal "https" 5 times.(áİäê

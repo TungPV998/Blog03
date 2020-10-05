@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="images/favicon.ico" type="image/ico" />
 
-    <title>Gentelella Alela! | </title>
+    <title>Quản Trị Trang Web </title>
 
     <!-- Bootstrap -->
     <link href="{{ asset("admin_asset/vendors/bootstrap/dist/css/bootstrap.min.css") }}" rel="stylesheet">
@@ -103,7 +103,10 @@ Now in fontawesome 5 you can deliver a cached version of JS over Https.
 
 <!-- Custom Theme Scripts -->
 <script src="{{ asset("admin_asset/build/js/custom.min.js") }}"></script>
+<script src="{{ asset("admin_asset/ckeditor/ckeditor.js") }}"></script>
 <script src="{{ asset("admin_asset/js/index.js") }}"></script>
-
+<script>
+    CKEDITOR.replace( 'pro_content');
+</script>
 </body>
 </html>
