@@ -58,7 +58,9 @@ Route::namespace('site')->group(function () {
     Route::get('/list-product/{id}', 'HomeController@getListProduct')->name('childCategory.listProduct');
     Route::get('/detail-product/{id}', 'ProductController@detailProduct')->name('product.detailProduct');
     Route::get('/buy-product/{id}', 'ShoppingCartController@store')->name('shopping.buy_cart');
-    Route::get('/add-product/{id}', 'ShoppingCartController@add')->name('shopping.add_cart');
+    Route::get('/add-product/{id}', 'ShoppingCartController@addCart')->name('shopping.add_cart');
+    Route::get('/xoa-san-pham/{id}', 'ShoppingCartController@delete')->name('shopping.delete');
+    Route::get('/danh-sach-san-pham-da-mua', 'ShoppingCartController@index')->name('shopping.list');
     Route::get('/trang-ca-nhan', 'ProfileController@show')->name('profile.show');
 });
 Route::namespace('Auth')->group(function (){
