@@ -1,9 +1,8 @@
 
-g	php:S1192"LDefine a constant instead of duplicating this literal "delete/{id}" 3 times.(’Äñ:8ÛæÔ¦Ë.
-:php:S1257"Remove this commented out code.(äßÃ8Š¹œ¥Ì.
-h	php:S1192"LDefine a constant instead of duplicating this literal "update/{id}" 3 times.(½½ƒ€8ÛæÔ¦Ë.
-b	php:S1192"FDefine a constant instead of duplicating this literal "index" 3 times.(Î«ÅÁ8ÛæÔ¦Ë.
-?php:S125"Remove this commented out code.(ÑóŒÿÿÿÿÿ8±¯­¢Ì.
-b	php:S1192"GDefine a constant instead of duplicating this literal "create" 3 times.(÷ßW8ÛæÔ¦Ë.
-b	php:S1192"FDefine a constant instead of duplicating this literal "store" 3 times.(ºˆÁ¨8ÛæÔ¦Ë.
-k	php:S1192"JDefine a constant instead of duplicating this literal "edit/{id}" 3 times.(·×Ì¸ıÿÿÿÿ8ÛæÔ¦Ë.
+k	php:S1192"JDefine a constant instead of duplicating this literal "edit/{id}" 5 times.(·×Ì¸ıÿÿÿÿ8÷µ‘Ğ.
+b	php:S1192"FDefine a constant instead of duplicating this literal "store" 5 times.(ºˆÁ¨8÷µ‘Ğ.
+g	php:S1192"LDefine a constant instead of duplicating this literal "delete/{id}" 5 times.(’Äñ:8÷µ‘Ğ.
+b	php:S1192"GDefine a constant instead of duplicating this literal "create" 5 times.(÷ßW8÷µ‘Ğ.
+b	php:S1192"FDefine a constant instead of duplicating this literal "index" 5 times.(Î«ÅÁ8÷µ‘Ğ.
+h	php:S1192"LDefine a constant instead of duplicating this literal "update/{id}" 5 times.(½½ƒ€8÷µ‘Ğ.
+?php:S125"Remove this commented out code.(ÑóŒÿÿÿÿÿ8÷µ‘Ğ.

@@ -37,7 +37,7 @@
                     </li>
                     <li><a><i class="fa fa-edit"></i> Quản Lý Đơn Hàng </a>
                     </li>
-                    <li><a><i class="fa fa-edit"></i> Quản Lý Người Dùng </a>
+                    <li><a href="{{ route("user.index") }}"><i class="fa fa-edit"></i> Quản Lý Người Dùng </a>
                     </li>
 
                 </ul>
