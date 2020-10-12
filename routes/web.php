@@ -60,16 +60,31 @@ Route::namespace('admin')->prefix("admin")->group(function () {
         Route::get('edit/{id}',"UserController@edit")->name("user.edit");
         Route::get('delete/{id}',"UserController@delete")->name("user.delete");
     });
+    Route::prefix('transaction')->group(function () {
+        Route::get('index',"TransactionController@index")->name("transaction.index");
+        Route::get('show/{id}',"TransactionController@show")->name("transaction.show");
+        Route::get('delete/{id}',"TransactionController@delete")->name("transaction.delete");
+    });
+    Route::prefix('role')->group(function () {
+        Route::get('index',"RoleController@index")->name("role.index");
+        Route::get('create',"RoleController@create")->name("role.create");
+        Route::post('store',"RoleController@store")->name("role.store");
+        Route::post('update/{id}',"RoleController@update")->name("role.update");
+        Route::get('edit/{id}',"RoleController@edit")->name("role.edit");
+        Route::get('delete/{id}',"RoleController@delete")->name("role.delete");
+    });
 });
 Route::namespace('site')->group(function () {
     Route::get('/', 'HomeController@index')->name('home');
     Route::get('/list-product/{id}', 'HomeController@getListProduct')->name('childCategory.listProduct');
     Route::get('/detail-product/{id}', 'ProductController@detailProduct')->name('product.detailProduct');
-    Route::get('/buy-product/{id}', 'ShoppingCartController@store')->name('shopping.buy_cart');
+    Route::get('/buy-product/{id}', 'ShoppingCartController@buyNow')->name('shopping.buy_now');
     Route::get('/add-product/{id}', 'ShoppingCartController@addCart')->name('shopping.add_cart');
     Route::get('/xoa-san-pham/{id}', 'ShoppingCartController@delete')->name('shopping.delete');
+    Route::post('/thanh-toan', 'ShoppingCartController@store')->name('shopping.store');
     Route::get('/danh-sach-san-pham-da-mua', 'ShoppingCartController@index')->name('shopping.list');
     Route::get('/trang-ca-nhan', 'ProfileController@show')->name('profile.show');
+
 });
 Route::namespace('Auth')->group(function (){
     Route::get("dang-ky-thanh-vien","RegisterController@formRegister")->name("register.form");
@@ -78,8 +93,6 @@ Route::namespace('Auth')->group(function (){
     Route::post("login","LoginController@checkLogin")->name("login.checkLogin");
     Route::get("dang-xuat","LoginController@logout")->name("login.logout");
 });
-
-
 
 Route::get('/list/product', function () {
     return view('frontend.listProduct');

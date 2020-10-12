@@ -141,3 +141,9 @@ C
 +resources/views/admin/user/create.blade.php,5\d\5d6ffeb9c4025796080601d8146131c1d075f2c9
 Z
 *resources/views/admin/user/index.blade.php,e\d\ed2b7671f5495b846e312c711ab320709fe2cbdd
+Q
+!app/Http/Requests/UserRequest.php,7\d\7df1646f349e10e4141263c5f6499686c1a6ef65
+U
+%app/Http/Requests/RegisterRequest.php,4\a\4ae639b72a0762dd131ef1504cc9c873ea8fc239
+Y
+)resources/views/admin/user/edit.blade.php,0\8\08ab8a83a2444ffe29355a1817b958a91f1ccad7

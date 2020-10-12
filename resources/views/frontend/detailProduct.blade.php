@@ -53,7 +53,7 @@
                                     </ul>
                             </div>
                                 <div class="btn">
-                                    <a href="{{ route("shopping.buy_cart",["id"=>$detail->id]) }}" class="btn btn-info btn-buy-now">Mua Ngay</a>
+                                    <a href="{{ route("shopping.buy_now",["id"=>$detail->id]) }}" class="btn btn-info btn-buy-now">Mua Ngay</a>
                                     <a href="{{ route("shopping.add_cart",["id"=>$detail->id]) }}" class="btn btn-warning btn-add-cart">Thêm Giỏ Hàng</a>
                                 </div>
                         </div>

@@ -3172,7 +3172,25 @@ margin-right: 5px;
     vertical-align: middle;
     border-top: 1px solid #DADADA;
   }
-  
+.total-payment{
+      font-size: 26px;
+  }
+.section-detail-cart{
+    margin: 50px 0;
+}
+tr>td>.name-cart-show{
+    font-weight: 600;
+    width: 220px;
+    font-size: 18px;
+    padding: 10px;
+    overflow: hidden;
+}
+tr>td>.name-cart-show>p{
+   word-wrap: break-word;
+}
+  tr>td>.thumb{
+      width: 120px;
+  }
   .shopping-cart-table>thead>tr>th {
     color: #30323A;
     text-transform: uppercase;

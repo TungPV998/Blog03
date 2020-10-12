@@ -104,9 +104,33 @@ Now in fontawesome 5 you can deliver a cached version of JS over Https.
 <!-- Custom Theme Scripts -->
 <script src="{{ asset("admin_asset/build/js/custom.min.js") }}"></script>
 <script src="{{ asset("admin_asset/ckeditor/ckeditor.js") }}"></script>
-<script src="{{ asset("admin_asset/js/index.js") }}"></script>
+
+
 <script>
     CKEDITOR.replace( 'pro_content');
+    $( document ).ready(function() {
+        $("#viewOrderDetail").click(function() {
+            //alert("hello");
+            var url  = $(this).attr( "data-links" );
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+            $.ajax({
+                type: 'GET',
+                url: url,
+                success: function(data) {
+                    $('.modal-body .table > tbody').append(data.html);
+                    //alert(data.html);
+                }
+
+
+
+    });
+
+    });
+    });
 </script>
 </body>
 </html>
